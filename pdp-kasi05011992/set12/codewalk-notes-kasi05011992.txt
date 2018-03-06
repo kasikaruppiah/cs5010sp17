@@ -1,0 +1,28 @@
+TA-1 Name:- Wenjun
+TA-2 Name:- Sankar
+
+
+Student1 CCIS ID:- kasi05011992
+
+Question 1:
+
+Design Grade:- AB
+TA Comments on Design:-
+> sumsquaresLoop2 is not giving the right output when input sum is non zero.
+> purpose statements are violated.
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+> was not able to identify tail call and tail context in the example shown. 
+
+
+Question 2:
+
+Design Grade:- A
+TA Comments on Design:-
+> contradicting results.
+> 
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+> garbage collector wont perform better always even if memory is not restricted.

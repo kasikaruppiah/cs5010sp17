@@ -1,0 +1,117 @@
+--------------------
+FAILURE
+actual:     (() () () (((Flight #<procedure:locked-fn>))) ())
+expected:   (() () () (((Flight #<procedure:locked-fn>))) ())
+name:       check-equal?
+location:   (#<path:/home/jmk/src/CODECUT/set08/pdp-patrickyang-kasi05011992/set08/q1.rkt> 412 2 16651 565)
+expression: (check-equal? (create-new-table (get-empty-table 5) (all-airports deltaFlights) (make-flight "newFlight" "LGA" "MSP" (make-UTC 11 0) (make-UTC 14 9))) (list (quote ()) (quote ()) (quote ()) (list (list (make-flight "newFlight" "LGA" "MSP" (make-UTC 11 0) (make-UTC 14 9)))) (quote ())))
+message:    "mis-match in create-new-table"
+
+Check failure
+--------------------
+--------------------
+q1 > Test #17
+Test #17
+ERROR
+with-limit: out of time
+  context...:
+   /proj/racket/plt-released/recent/share/pkgs/sandbox-lib/racket/sandbox.rkt:379:0: call-with-limits
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/result.rkt:99:3
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:28:2
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:85:13: the-tests
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:60:0: apply-test-suite
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/text-ui.rkt:243:0: run-tests14
+   /home/jmk/src/CODECUT/set08/pdp-patrickyang-kasi05011992/set08/q1-bb.rkt: [running body]
+
+--------------------
+--------------------
+q1 > Test #18
+Test #18
+ERROR
+with-limit: out of time
+  context...:
+   /proj/racket/plt-released/recent/share/pkgs/sandbox-lib/racket/sandbox.rkt:379:0: call-with-limits
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/result.rkt:99:3
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:28:2
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:85:13: the-tests
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:60:0: apply-test-suite
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/text-ui.rkt:243:0: run-tests14
+   /home/jmk/src/CODECUT/set08/pdp-patrickyang-kasi05011992/set08/q1-bb.rkt: [running body]
+
+--------------------
+--------------------
+q1 > Test #19
+Test #19
+ERROR
+with-limit: out of time
+  context...:
+   /proj/racket/plt-released/recent/share/pkgs/sandbox-lib/racket/sandbox.rkt:379:0: call-with-limits
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/result.rkt:99:3
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:28:2
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:85:13: the-tests
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:60:0: apply-test-suite
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/text-ui.rkt:243:0: run-tests14
+   /home/jmk/src/CODECUT/set08/pdp-patrickyang-kasi05011992/set08/q1-bb.rkt: [running body]
+
+--------------------
+--------------------
+q1 > Test #20
+Test #20
+ERROR
+with-limit: out of time
+  context...:
+   /proj/racket/plt-released/recent/share/pkgs/sandbox-lib/racket/sandbox.rkt:379:0: call-with-limits
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/result.rkt:99:3
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:28:2
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:85:13: the-tests
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:60:0: apply-test-suite
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/text-ui.rkt:243:0: run-tests14
+   /home/jmk/src/CODECUT/set08/pdp-patrickyang-kasi05011992/set08/q1-bb.rkt: [running body]
+
+--------------------
+--------------------
+q1 > Test #21
+Test #21
+ERROR
+with-limit: out of time
+  context...:
+   /proj/racket/plt-released/recent/share/pkgs/sandbox-lib/racket/sandbox.rkt:379:0: call-with-limits
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/result.rkt:99:3
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:28:2
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:85:13: the-tests
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:60:0: apply-test-suite
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/text-ui.rkt:243:0: run-tests14
+   /home/jmk/src/CODECUT/set08/pdp-patrickyang-kasi05011992/set08/q1-bb.rkt: [running body]
+
+--------------------
+--------------------
+q1 > Test #22
+Test #22
+ERROR
+with-limit: out of time
+  context...:
+   /proj/racket/plt-released/recent/share/pkgs/sandbox-lib/racket/sandbox.rkt:379:0: call-with-limits
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/result.rkt:99:3
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:28:2
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:85:13: the-tests
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/private/test-suite.rkt:60:0: apply-test-suite
+   /proj/racket/plt-released/recent/share/pkgs/rackunit-lib/rackunit/text-ui.rkt:243:0: run-tests14
+   /home/jmk/src/CODECUT/set08/pdp-patrickyang-kasi05011992/set08/q1-bb.rkt: [running body]
+
+--------------------
+16 success(es) 0 failure(s) 6 error(s) 22 test(s) run
+extras.rkt Wed Sep 14 08:52:19 2016
+Running tests from flight.rkt...
+All tests passed (16 tests).
+Running tests from q1.rkt...
+1 test failed out of 63 tests total in q1.rkt.
+cpu time: 354 real time: 353 gc time: 1
+cpu time: 496 real time: 496 gc time: 0
+cpu time: 680 real time: 680 gc time: 1
+cpu time: 916 real time: 915 gc time: 1
+cpu time: 1198 real time: 1198 gc time: 1
+cpu time: 1552 real time: 1550 gc time: 0
+cpu time: 165 real time: 164 gc time: 0
+cpu time: 282 real time: 281 gc time: 1
+cpu time: 438 real time: 439 gc time: 1
+6

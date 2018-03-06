@@ -1,0 +1,56 @@
+TA-1 Name:- Rohit
+TA-2 Name:- Sankar
+
+
+Student1 CCIS ID:- patrickyang
+
+
+Question 1:
+
+Design Grade:- A
+TA Comments on Design:-
+> hour and minutes should be limited while defining.
+> Its better to add a one line goal of program at the top.
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+
+
+Question 2:
+
+Design Grade:- A
+TA Comments on Design:-
+> Have mentioned halting measure properly.
+> Use helper functions to make one function one task.
+> use variable more meaningfully. Using same variable name for both input of main function and lambda function. It creates confusion.
+> functions like time-between should be improved using helper functions.
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+> Good understanding of the submission.
+
+Student2 CCIS ID:- kasi05011992
+
+Question 1:
+
+Design Grade:- A
+TA Comments on Design:-
+> hour and minutes should be limited while defining.
+> Its better to add a one line goal of program at the top.
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+
+
+Question 2:
+
+Design Grade:- A
+TA Comments on Design:-
+> Have mentioned halting measure properly.
+> Use helper functions to make one function one task.
+> use variable more meaningfully. Using same variable name for both input of main function and lambda function. It creates confusion.
+> functions like time-between should be improved using helper functions.
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+> Good understanding of the submission.

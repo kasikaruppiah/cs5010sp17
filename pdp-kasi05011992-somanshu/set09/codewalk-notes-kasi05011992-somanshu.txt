@@ -1,0 +1,65 @@
+TA-1 Name:- Rohit
+TA-2 Name:- Wenjun
+
+
+Student1 CCIS ID:- kasi05011992
+
+Question 1 :-
+
+Design Grade:- AB
+TA Comments on Design:-
+	1. Respected the given interfaces.
+	2. Implemented RacketList as immutable.
+	3. Missing purpose statements for some methods.
+	4. Missing interpretation for fields in classes.
+	5. Need to review course materials about static factory method (penalized for not familiar with course materials).
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+	1. Asked about difference between OOP and Functional Programming, answered.
+	2. Asked about why use static methods, satisfactory answer.
+	3. Asked about why use static factory methods, student was on the right track, but still need to review lectures.
+
+
+Question 2 :-
+
+Design Grade:- AB
+TA Comments on Design:-
+	1. Better to add short explanations for different parts within one method
+	2. Missing where clause for function findFastestItinery (expecting non-empty list)
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+	1. Asked about function findAllItineraries and its helpers, satisfactory answer.
+
+
+
+Student2 CCIS ID:- somanshu
+
+Question 1 :-
+
+Design Grade:- A
+TA Comments on Design:-
+	1. Respected the given interfaces.
+	2. Implemented RacketList as immutable.
+	3. Missing purpose statements for some methods.
+	4. Missing interpretation for fields in classes.
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+	1. Asked about classes relationships, satisfactory answer.
+	2. Asked about difference between OOP and Functional Programming, answered.
+	3. Asked about why use static factory methods, satisfactory answer.
+	4. Asked about implemetation for RacketList, satisfactory asnwer.
+
+Question 2 :-
+
+Design Grade:- AB
+TA Comments on Design:-
+	1. Better to add short explanations for different parts within one method
+	2. Missing where clause for function findFastestItinery (expecting non-empty list)
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+	1. Asked about findFastestItinerary, satisfactory answer.
+	2. Asked how program was tested, satisfactory answer.

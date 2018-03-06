@@ -1,0 +1,4 @@
+pdp-kasi05011992
+q1-bb.rkt: 16/16 tests passed -> 15/15 correct
+q2-bb.rkt: 34/36 tests passed -> 14/15 correct
+TOTAL: 14/15 correct

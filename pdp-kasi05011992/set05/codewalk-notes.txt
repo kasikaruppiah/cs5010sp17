@@ -1,0 +1,29 @@
+TA-1 Name:- Himanshu
+TA-2 Name:- Vinay
+
+
+
+Student1 CCIS ID:- kasi05011992
+
+Question 1 :-
+
+Design Grade:- AB
+TA Comments on Design:-
+ - world-after-key-event,doodad-to-image  should be broken into helper functions
+   Currently world-after-key-event is doing multiple tasks and is unreadable
+
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+ - Good
+
+Question 2 :-
+
+Design Grade:- A
+TA Comments on Design:-
+ - Good 
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+ - Good 
+

@@ -1,0 +1,66 @@
+TA-1 Name:- Rohit
+TA-2 Name:- Wenjun
+
+
+Student1 CCIS ID:- kasi05011992
+
+Question 1 :-
+
+Design Grade:- B
+TA Comments on Design:-
+	1. DefaultLambdaExp.value is wrong (please refer to the rule for lambda expression)
+	2. DefaultCallExp.value did not follow all rules for CallExp 
+
+Presentation Grade:- AB
+TA Comments on Presentation:-
+	1. Asked about implementation for six isX() methods, satisfactory answer.
+	2. Asked about multiple inheritance in Java, student answered after one follow up.
+	3. Asked about why define ActualExp.value abstract, satisfactory answer. 
+
+
+Question 2 :-
+
+Design Grade:- A
+Please ignore these comments:
+TA Comments on Design:-
+	1. Did not checked about the size of formals and arguments
+	2. Formals should be added to the environment - but since the environment has to be immutable, new copy should be made of env - Follow the semantics for the language given.
+	3. isConstant check is unnecessary as it assumes things that are not stated in the problem statement - only need to check if rhs is a function or not
+
+
+Presentation Grade:- AB
+TA Comments on Presentation:-
+	1. Needs more clarity on the rules to be followed for run method
+	2. Asked about Programs.run, satisfactory answer.
+
+
+Student2 CCIS ID:- somanshu
+
+Question 1 :-
+
+Design Grade:- B
+TA Comments on Design:-
+	1. DefaultLambdaExp.value is wrong (please refer to the rule for lambda expression)
+	2. DefaultCallExp.value did not follow all rules for CallExp 
+
+Presentation Grade:- AB
+TA Comments on Presentation:-
+	1. Asked about what is an abstract class, satisfactory answer.
+	2. Asked about how to define a class that can not be override, satisfactory answer.
+	3. Asked about rules for CallExp and how they correspond to the submission - Needs more clarity on the rules
+
+
+Question 2 :-
+
+Design Grade:- A
+Please ignore these comments:
+TA Comments on Design:-
+	1. Did not checked about the size of formals and arguments
+	2. Formals should be added to the environment - but since the environment has to be immutable, new copy should be made of env - Follow the semantics for the language given
+	3. isConstant check is unnecessary as it assumes things that are not stated in the problem statement - only need to check if rhs is a function or not
+
+
+Presentation Grade:- AB
+TA Comments on Presentation:- 	
+	1. Needs more clarity on the rules to be followed for run method
+	2. Asked about Programs.run, satisfactory answer.

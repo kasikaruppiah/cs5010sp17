@@ -1,0 +1,30 @@
+TA-1 Name:- Vinay
+TA-2 Name:- Sankar
+
+
+
+
+Student1 CCIS ID:- kasi05011992
+
+Question 1 :-
+
+Design Grade:- A
+TA Comments on Design:-
+> Good design.
+> Use constants instead of magic variables.
+> Split long functions to make sure one function one task is followed.
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+> Clear presentation.
+
+
+Question 2 :-
+
+Design Grade:- A
+TA Comments on Design:-
+>One function one task should be maintained.
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+> Good

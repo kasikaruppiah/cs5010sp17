@@ -1,0 +1,160 @@
+Running test: true is a constant... PASS
+Running test: false is a constant... PASS
+Running test: 42 is a constant... PASS
+Running test: 0 is a constant... PASS
+Running test: lambda is not a constant... PASS
+Running test: sparticus is an identifier... PASS
+Running test: true is not an identifier... PASS
+Running test: lambda identifies as such... PASS
+Running test: lambda can have many formals... PASS
+Running test: PLUS is not a lambda... PASS
+Running test: PLUS is arithmetic... PASS
+Running test: lambda is not arithmetic... PASS
+Running test: call identifies as such... PASS
+Running test: call can have lambda as operator... PASS
+Running test: call can have call as operator... PASS
+Running test: PLUS is not a call... PASS
+Running test: if identifies as such... PASS
+Running test: lambda is not an if... PASS
+Running test: false => false... PASS
+Running test: 42 => 42... PASS
+Running test: (λ(x) x) => function with empty env... ERROR
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: x not found in the environment
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at PdpTestSuite$TestCase.run(PdpTestSuite.java:86)
+	at PdpTestSuite.runTests(PdpTestSuite.java:45)
+	at PdpExpTests.main(PdpExpTests.java:264)
+Caused by: java.lang.IllegalArgumentException: x not found in the environment
+	at DefaultIdentifierExp.value(DefaultIdentifierExp.java:76)
+	at DefaultLambdaExp.value(DefaultLambdaExp.java:88)
+	at PdpExpTests.lambda$main$20(PdpExpTests.java:138)
+	at PdpTestSuite$TestCase.lambda$run$0(PdpTestSuite.java:84)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Running test: (λ(x) x)(5010) => 5010... ERROR
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: x not found in the environment
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at PdpTestSuite$TestCase.run(PdpTestSuite.java:86)
+	at PdpTestSuite.runTests(PdpTestSuite.java:45)
+	at PdpExpTests.main(PdpExpTests.java:264)
+Caused by: java.lang.IllegalArgumentException: x not found in the environment
+	at DefaultIdentifierExp.value(DefaultIdentifierExp.java:76)
+	at DefaultLambdaExp.value(DefaultLambdaExp.java:88)
+	at DefaultCallExp.value(DefaultCallExp.java:89)
+	at PdpExpTests.lambda$main$21(PdpExpTests.java:145)
+	at PdpTestSuite$TestCase.lambda$run$0(PdpTestSuite.java:84)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Running test: (λ(x) x)((λ(x) x))(5010) => 5010... ERROR
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: x not found in the environment
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at PdpTestSuite$TestCase.run(PdpTestSuite.java:86)
+	at PdpTestSuite.runTests(PdpTestSuite.java:45)
+	at PdpExpTests.main(PdpExpTests.java:264)
+Caused by: java.lang.IllegalArgumentException: x not found in the environment
+	at DefaultIdentifierExp.value(DefaultIdentifierExp.java:76)
+	at DefaultLambdaExp.value(DefaultLambdaExp.java:88)
+	at DefaultCallExp.value(DefaultCallExp.java:89)
+	at DefaultCallExp.value(DefaultCallExp.java:89)
+	at PdpExpTests.lambda$main$22(PdpExpTests.java:154)
+	at PdpTestSuite$TestCase.lambda$run$0(PdpTestSuite.java:84)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Running test: 3 < 2 => false... PASS
+Running test: 3 = 2 => false... PASS
+Running test: 3 > 2 => true... PASS
+Running test: 3 + 2 => 5... PASS
+Running test: 3 - 2 => 1... PASS
+Running test: 3 * 2 => 6... PASS
+Running test: if true does not evaluate else branch... PASS
+Running test: if false does not evaluate then branch... PASS
+Running test: x * y... PASS
+Running test: inc (x)... PASS
+Running test: inc (inc (x))... PASS
+Running test: inc (y) - inc (x)... PASS
+Running test: (λ(f,x) f(f(x)))(inc,y)... ERROR
+java.util.concurrent.ExecutionException: java.lang.IllegalArgumentException: f not found in the environment
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at PdpTestSuite$TestCase.run(PdpTestSuite.java:86)
+	at PdpTestSuite.runTests(PdpTestSuite.java:45)
+	at PdpExpTests.main(PdpExpTests.java:264)
+Caused by: java.lang.IllegalArgumentException: f not found in the environment
+	at DefaultIdentifierExp.value(DefaultIdentifierExp.java:76)
+	at DefaultCallExp.value(DefaultCallExp.java:89)
+	at DefaultLambdaExp.value(DefaultLambdaExp.java:88)
+	at DefaultCallExp.value(DefaultCallExp.java:89)
+	at PdpExpTests.lambda$main$35(PdpExpTests.java:226)
+	at PdpTestSuite$TestCase.lambda$run$0(PdpTestSuite.java:84)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Running test: y < z... PASS
+Running test: z < y... PASS
+Running test: y < 5... PASS
+Running test: y = z... PASS
+Running test: z = y... PASS
+Running test: y = 5... PASS
+Running test: y > z... PASS
+Running test: z > y... PASS
+Running test: y > 5... PASS
+Running test: y+z... PASS
+Running test: y-z... PASS
+Running test: y*z... PASS
+Running test: if y < z then 97 else 107... PASS
+Running test: if y = z then 97 else 107... PASS
+Running test: if x - y < x + z then 97 else 107... PASS
+Running test: if x - y > x + z then 97 else 107... PASS
+Running test: f (1000, 2)... PASS
+Running test: y+z... PASS
+Running test: f (9999, 100)... PASS
+Running test: (if y < z then f else 107) (100, 10)... PASS
+Running test: (λ (x,y,z) f) (1,2,3) (10, 10)... ERROR
+java.util.concurrent.ExecutionException: java.util.InputMismatchException: Mismatch in number of formals and arguments
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at PdpTestSuite$TestCase.run(PdpTestSuite.java:86)
+	at PdpTestSuite.runTests(PdpTestSuite.java:45)
+	at PdpExpTests.main(PdpExpTests.java:264)
+Caused by: java.util.InputMismatchException: Mismatch in number of formals and arguments
+	at DefaultCallExp.value(DefaultCallExp.java:100)
+	at DefaultCallExp.value(DefaultCallExp.java:89)
+	at PdpExpTests.lambda$addTest$37(PdpExpTests.java:301)
+	at PdpTestSuite$TestCase.lambda$run$0(PdpTestSuite.java:84)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Running test: (λ (f) (λ (x) f (f, x)))((λ (f, x)   ...... ERROR
+java.util.concurrent.ExecutionException: java.lang.UnsupportedOperationException: asInteger is supported only for IntVal, but found class DefaultFunVal
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:206)
+	at PdpTestSuite$TestCase.run(PdpTestSuite.java:86)
+	at PdpTestSuite.runTests(PdpTestSuite.java:45)
+	at PdpExpTests.main(PdpExpTests.java:264)
+Caused by: java.lang.UnsupportedOperationException: asInteger is supported only for IntVal, but found class DefaultFunVal
+	at AbstractExpVal.asInteger(AbstractExpVal.java:60)
+	at DefaultArithmeticExp.value(DefaultArithmeticExp.java:113)
+	at DefaultLambdaExp.value(DefaultLambdaExp.java:88)
+	at DefaultCallExp.value(DefaultCallExp.java:108)
+	at DefaultLambdaExp.value(DefaultLambdaExp.java:88)
+	at DefaultLambdaExp.value(DefaultLambdaExp.java:88)
+	at DefaultCallExp.value(DefaultCallExp.java:89)
+	at DefaultCallExp.value(DefaultCallExp.java:89)
+	at PdpExpTests.lambda$addTest$37(PdpExpTests.java:301)
+	at PdpTestSuite$TestCase.lambda$run$0(PdpTestSuite.java:84)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+52 success(es) 0 failure(s) 6 error(s) 58 test(s) run

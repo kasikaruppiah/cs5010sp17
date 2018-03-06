@@ -1,0 +1,5 @@
+pdp-kasi05011992
+q1.rkt: -3 wrong language
+q1-bb.rkt: 25/25 tests passed -> 12/15 correct
+q2.rkt: -3 wrong language
+q2-bb.rkt: 15/15 tests passed -> 12/15 correct

@@ -1,0 +1,63 @@
+TA-1 Name:- Wenjun
+TA-2 Name:- Sankar
+
+
+Student1 CCIS ID:- patrickyang
+
+Question 1:
+
+Design Grade:- A
+TA Comments on Design:-
+> Good use of let.
+> Had made their program run in n^4
+> had used bfs to find can-get-there?
+> Good use of examples and well organized.
+> Had mentioned Halting measure properly.
+> Had minimized the length of the program
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+> Good understanding of the submission
+> had difficulties in calculating the complexities.
+> 
+
+Question 2:
+
+Design Grade:- A
+TA Comments on Design:-
+> had shown that the program runs in N^4
+> Was able to show why its n^4
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+> was able to answer the complexity of benchmark.
+
+
+Student2 CCIS ID:-kasi05011992
+
+Question 1:
+
+Design Grade:- A
+TA Comments on Design:-
+> Good use of let.
+> Had made their program run in n^4
+> had used bfs to find can-get-there?
+> Good use of examples and well organized.
+> Had mentioned Halting measure properly.
+> Had minimized the length of the program
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+> Good understanding of the concepts of bfs and the goal of the program.
+> Explanation of logic of the program was really good. Keep it up. 
+
+Question 2:
+
+Design Grade:- A
+TA Comments on Design:-
+> had shown that the program runs in N^4
+> Was able to show why its n^4
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+> was able to answer the complexity of benchmark.

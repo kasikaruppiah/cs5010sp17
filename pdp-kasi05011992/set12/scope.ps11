@@ -1,0 +1,6 @@
+# set 3
+g(y,z)
+	if 3 > 4
+		then i(z, (λ (x) x))
+	else
+		x

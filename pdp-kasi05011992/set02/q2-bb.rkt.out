@@ -1,0 +1,33 @@
+--------------------
+q2 > Test #21
+Test #21
+FAILURE
+name:       check-equal?
+location:   q2-bb.rkt:177:4
+params:     #t
+#f
+actual:     #t
+expected:   #f
+expression: (check-equal? (bb-accepts? (list "d" "p" "d" "p" "d")) false)
+message:    "machine should not accept dpdpd"
+Check failure
+--------------------
+--------------------
+q2 > Test #22
+Test #22
+FAILURE
+name:       check-equal?
+location:   q2-bb.rkt:183:4
+params:     #t
+#f
+actual:     #t
+expected:   #f
+expression: (check-equal? (bb-viable? (list "d" "p" "d" "p" "d")) false)
+message:    "machine should reject sequences starting with dpdpd"
+Check failure
+--------------------
+34 success(es) 2 failure(s) 0 error(s) 36 test(s) run
+extras.rkt Wed Sep 14 08:52:19 2016
+Running tests from q2.rkt...
+All tests passed (22 tests).
+2

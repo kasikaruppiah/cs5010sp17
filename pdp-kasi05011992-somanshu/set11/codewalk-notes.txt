@@ -1,0 +1,51 @@
+TA-1 Name:- Wenjun
+TA-2 Name:- Rohit
+
+
+
+
+Student1 CCIS ID:- kasi05011992
+
+Question 1 :-
+
+Design Grade:- A
+TA Comments on Design:-
+- Changes made? Answered
+- Explain main method: Explained
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+
+
+Question 2 :-
+
+Design Grade:- A
+TA Comments on Design:- 
+- walk-thorugh a given example: Answered 
+ 
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+
+
+
+Student2 CCIS ID:- somanshu
+
+Question 1 :-
+
+Design Grade:- A
+TA Comments on Design
+- Explain call expressions values method: Explained
+
+
+Presentation Grade:- A
+TA Comments on Presentation:-
+
+Question 2 :-
+
+Design Grade:- A
+TA Comments on Design:-
+- Explain undefined: Answered
+
+Presentation Grade:- A
+TA Comments on Presentation:-

@@ -1,0 +1,6 @@
+We wrote 2 helper functions to help validate the test cases.
+The check-equal? function in racket evaluates the arguments and checks if they are equal, i.e. refer to same object.
+After implement the ADT in flight.rkt, 2 objects, although they contains the same list of flights, the function will return false.
+Hence in order to evaluate our test cases, we added 2 helper functions:
+1. lof=? - takes two ListOfFlight, extracts every element(Flight) in the two ListOfFlight and compares if they’re equal using flight=?
+2. lolof=? - takes two ListOfListOfFlight, extract every element(ListOfFlight) in the two ListOfListOfFlight and compares if they’re equal using lof=?

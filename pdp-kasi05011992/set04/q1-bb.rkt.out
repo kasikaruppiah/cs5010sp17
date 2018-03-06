@@ -1,0 +1,33 @@
+--------------------
+q1 > Test #38
+Test #38
+FAILURE
+name:       check-equal?
+location:   q1-bb.rkt:623:4
+params:     '(world #f () ((doodad 585 329 -13 9 #f)))
+'(world #f () ((doodad 335 133 13 9 #f)))
+actual:     '(world #f () ((doodad 585 329 -13 9 #f)))
+expected:   '(world #f () ((doodad 335 133 13 9 #f)))
+expression: (check-equal? (world-as-list (world-after-ticks-and-key-events (initial-world 192) (list 25 "q" 50 "q" 30 "." 45 "t" 100 "."))) (list (quote world) false empty (quote ((doodad 335 133 13 9 #f)))))
+message:    "world wrong after these events: 25 q 50 q 30 . 45 5 100 ."
+Check failure
+--------------------
+--------------------
+q1 > Test #41
+Test #41
+FAILURE
+name:       check-equal?
+location:   q1-bb.rkt:708:4
+params:     '(#t #t #t #t #t #t #f #t #f #t)
+'(#t #t #t #t #t #t #t #t #t #t)
+actual:     '(#t #t #t #t #t #t #f #t #f #t)
+expected:   '(#t #t #t #t #t #t #t #t #t #t)
+expression: (check-equal? (let* ((w (world-after-ticks-and-key-events (initial-world 0) (list 100 "t" 100 "q" 100 "t" 100 "q" 100 "t" 100 "q" 100 "t" 100 "q" 100 "t" 100 "q"))) (stars (world-doodads-star w)) (squares (world-doodads-square w)) (stars (insertion-sort doodad< stars)) (squares (insertion-sort doodad< squares)) (colors1 (map doodad-color stars)) (colors2 (map doodad-color squares)) (c100 (list-ref colors1 0)) (c101 (list-ref colors1 1)) (c102 (list-ref colors1 2)) (c103 (list-ref colors1 3)) (c104 (list-ref colors1 4)) (c105 (list-ref colors1 5)) (c200 (list-ref colors2 0)) (c201 (list-ref colors2 1)) (c202 (list-ref colors2 2)) (c203 (list-ref colors2 3)) (c204 (list-ref colors2 4)) (c205 (list-ref colors2 5))) (list (colors-are-equal? c100 c101) (colors-are-equal? c101 c103) (colors-are-equal? c103 c104) (colors-not-equal? c101 c102) (colors-not-equal? c104 c105) (colors-not-equal? c200 c201) (colors-not-equal? c201 c202) (colors-not-equal? c202 c203) (colors-are-equal? c203 c204) (colors-not-equal? c204 c205))) (quote (#t #t #t #t #t #t #t #t #t #t)))
+message:    "new doodads don't change color correctly"
+Check failure
+--------------------
+42 success(es) 2 failure(s) 0 error(s) 44 test(s) run
+extras.rkt Wed Sep 14 08:52:19 2016
+Running tests from q1.rkt...
+All tests passed (64 tests).
+2
